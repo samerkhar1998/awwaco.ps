@@ -1,0 +1,38 @@
+import building from '../assets/images/awwadco-building.jpg';
+
+export default function Hero() {
+  return (
+    <section id="top" className="hero">
+      <div className="hero__media">
+        <img src={building} alt="The original AWWADCO building, Palestine" />
+        <div className="hero__scrim" />
+      </div>
+
+      <div className="container hero__content">
+        <p className="kicker kicker--light">Pharmaceutical Heritage &middot; Medical Aesthetics</p>
+        <h1 className="hero__title">
+          Nearly six decades of trusted care, now shaping the future of aesthetic medicine.
+        </h1>
+        <p className="hero__subtitle">
+          Founded in 1967, AWWADCO PS has served healthcare providers across Palestine
+          with reliability and integrity &mdash; and in 2026, begins a new chapter.
+        </p>
+        <div className="hero__actions">
+          <a href="tel:+970597939251" className="btn btn--brass">Call Us</a>
+          <a
+            href="https://wa.me/970597939251"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn--ghost"
+          >
+            WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <a href="#about" className="hero__scroll-cue" aria-label="Scroll to About Us">
+        <span />
+      </a>
+    </section>
+  );
+}
