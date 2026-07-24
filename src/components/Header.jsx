@@ -31,7 +31,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <a href="tel:+970597939251" className="btn btn--brass site-header__cta">
+        <a href="tel:+970598973622" className="btn btn--brass site-header__cta">
           Call Us
         </a>
 
@@ -54,7 +54,7 @@ export default function Header() {
               {link.label}
             </a>
           ))}
-          <a href="tel:+970597939251" className="btn btn--brass" onClick={() => setMenuOpen(false)}>
+          <a href="tel:+970598973622" className="btn btn--brass" onClick={() => setMenuOpen(false)}>
             Call Us
           </a>
         </nav>

@@ -479,49 +479,89 @@
   color: var(--ink-faint);
 }
 
-.contact__cards {
-  margin-top: 52px;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(260px, 320px));
-  gap: 24px;
-  justify-content: center;
-}
-.contact-card {
+.contact-panel {
+  margin: 52px auto 0;
+  max-width: 620px;
   background: var(--cream-card);
   border: 1px solid var(--line);
-  border-radius: 14px;
-  padding: 34px 28px;
+  border-radius: 18px;
   box-shadow: var(--shadow-card);
   text-align: left;
+  overflow: hidden;
 }
-.contact-card__label {
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 26px 30px;
+}
+.contact-row + .contact-row {
+  border-top: 1px solid var(--line);
+}
+.contact-row__icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--parchment-deep);
+  color: var(--brass-deep);
+}
+.contact-row__info {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.contact-row__label {
   display: block;
-  font-size: 12px;
+  font-size: 11.5px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--brass-deep);
   font-weight: 600;
 }
-.contact-card__number {
+.contact-row__value {
   display: block;
-  margin-top: 12px;
+  margin-top: 4px;
   font-family: var(--display);
-  font-size: 25px;
+  font-size: 22px;
   color: var(--ink);
 }
-.contact-card__actions {
-  margin-top: 24px;
+.contact-row__value:hover {
+  color: var(--brass-deep);
+}
+.contact-row__value--email {
+  font-size: 17px;
+  overflow-wrap: anywhere;
+}
+.contact-row__actions {
+  flex: none;
   display: flex;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.btn--sm {
+  padding: 9px 18px;
+  font-size: 11.5px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 600px) {
   .contact {
     padding: 72px 0;
   }
-  .contact__cards {
-    grid-template-columns: 1fr;
+  .contact-row {
+    flex-wrap: wrap;
+    gap: 14px 16px;
+    padding: 22px;
+  }
+  .contact-row__actions {
+    flex: 1 1 100%;
+    justify-content: flex-start;
+    padding-left: 62px;
+  }
+  .contact-row__value--email {
+    font-size: 14px;
   }
 }
 

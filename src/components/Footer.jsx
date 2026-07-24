@@ -15,8 +15,9 @@ export default function Footer() {
         </div>
 
         <div className="site-footer__phones">
-          <a href="tel:+970597939251">+970 59 793 9251</a>
+          <a href="tel:+970598973622">+970 59 897 3622</a>
           <a href="tel:+97022727006">+970 2 272 7006</a>
+          <a href="mailto:awwadcopalestine@gmail.com">awwadcopalestine@gmail.com</a>
         </div>
       </div>
       <div className="site-footer__bottom">

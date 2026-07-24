@@ -18,9 +18,9 @@ export default function Hero() {
           with reliability and integrity &mdash; and in 2026, begins a new chapter.
         </p>
         <div className="hero__actions">
-          <a href="tel:+970597939251" className="btn btn--brass">Call Us</a>
+          <a href="tel:+970598973622" className="btn btn--brass">Call Us</a>
           <a
-            href="https://wa.me/970597939251"
+            href="https://wa.me/970598973622"
             target="_blank"
             rel="noreferrer"
             className="btn btn--ghost"
