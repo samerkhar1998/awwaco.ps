@@ -21,8 +21,8 @@ export default function About() {
         </div>
 
         <figure className="photo-frame about__photo">
-          <img src={founders} alt="Founders Nicola Awwad and George Awwad" />
-          <figcaption>Nicola Awwad &amp; George Awwad, Founders</figcaption>
+          <img src={founders} alt="Founders George Awwad and Nicola Awwad" />
+          <figcaption>George Awwad &amp; Nicola Awwad, Founders</figcaption>
         </figure>
       </div>
     </section>

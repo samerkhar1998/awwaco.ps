@@ -9,7 +9,7 @@ export default function Hero() {
       </div>
 
       <div className="container hero__content">
-        <p className="kicker kicker--light">Pharmaceutical Heritage &middot; Medical Aesthetics</p>
+        <p className="kicker kicker--light">Medical Aesthetics &middot; Palestine</p>
         <h1 className="hero__title">
           Nearly six decades of trusted care, now shaping the future of aesthetic medicine.
         </h1>
@@ -18,9 +18,9 @@ export default function Hero() {
           with reliability and integrity &mdash; and in 2026, begins a new chapter.
         </p>
         <div className="hero__actions">
-          <a href="tel:+970597939251" className="btn btn--brass">Call Us</a>
+          <a href="tel:+970598973622" className="btn btn--light">Call Us</a>
           <a
-            href="https://wa.me/970597939251"
+            href="https://wa.me/970598973622"
             target="_blank"
             rel="noreferrer"
             className="btn btn--ghost"
@@ -29,10 +29,6 @@ export default function Hero() {
           </a>
         </div>
       </div>
-
-      <a href="#about" className="hero__scroll-cue" aria-label="Scroll to About Us">
-        <span />
-      </a>
     </section>
   );
 }
