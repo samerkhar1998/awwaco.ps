@@ -13,10 +13,11 @@
   --rose: #b1614f;
   --rose-deep: #8f4a3b;
   --rose-soft: #e6c3b6;
-  --line: rgba(41, 32, 15, 0.16);
-  --line-light: rgba(251, 246, 234, 0.2);
-  --shadow-soft: 0 20px 45px -25px rgba(23, 15, 10, 0.45);
-  --shadow-card: 0 14px 30px -18px rgba(23, 15, 10, 0.35);
+  --line: rgba(41, 32, 15, 0.14);
+  --line-strong: rgba(41, 32, 15, 0.28);
+  --line-light: rgba(251, 246, 234, 0.16);
+  --shadow-soft: 0 10px 30px -22px rgba(23, 15, 10, 0.3);
+  --shadow-card: 0 6px 20px -16px rgba(23, 15, 10, 0.2);
 
   --display: 'Fraunces', 'Iowan Old Style', serif;
   --body: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
@@ -84,8 +85,8 @@ button {
 
 .kicker {
   font-family: var(--body);
-  font-size: 12.5px;
-  letter-spacing: 0.22em;
+  font-size: 11.5px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   font-weight: 600;
   color: var(--brass-deep);
@@ -104,5 +105,9 @@ button {
   }
   body {
     font-size: 16px;
+  }
+  .kicker {
+    font-size: 10px;
+    letter-spacing: 0.12em;
   }
 }

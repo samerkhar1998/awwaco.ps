@@ -20,13 +20,11 @@ export default function Timeline() {
   return (
     <section className="timeline">
       <div className="container timeline__inner">
-        {MILESTONES.map((m, i) => (
+        {MILESTONES.map((m) => (
           <div className="timeline__item" key={m.year}>
             <span className="timeline__year">{m.year}</span>
-            <span className="timeline__dot" />
             <h3 className="timeline__title">{m.title}</h3>
             <p className="timeline__text">{m.text}</p>
-            {i < MILESTONES.length - 1 && <span className="timeline__connector" />}
           </div>
         ))}
       </div>
